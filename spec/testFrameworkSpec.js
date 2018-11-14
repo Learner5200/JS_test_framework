@@ -8,7 +8,7 @@ describe('Tester', function() {
       Tester.describe('test', function(){
         return "";
       });
-      expect(console.log).toHaveBeenCalledWith('test');
+      expect(console.log).toHaveBeenCalledWith('  test');
     });
     it('executes callback function', function(){
       var object = {
